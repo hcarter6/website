@@ -2,14 +2,60 @@
 <html>
 	<head>
 		<title>Henry Carter</title>
+		<style>
+			img.resize {
+				width: 400px;
+				height: auto;
+				display: block;
+				margin-left: auto;
+				margin-right: auto;
+			}
+
+			h3, p, td {
+				text-align: center;
+			}
+
+			td {
+				border: 1px #cccccc solid;
+			}
+
+			table {
+				margin-left: auto;
+				margin-right: auto;
+				width: 25%;
+			}
+
+			figure {
+  				display: block;
+  				margin-top: 1em;
+  				margin-bottom: 1em;
+  				margin-left: 40px;
+  				margin-right: 40px;
+			}
+
+			figcaption {
+  				background-color: white;
+  				color: black;
+  				font-style: italic;
+  				padding: 2px;
+  				text-align: center;
+			}
+		</style>
 	</head>
 
 	<body>
 		<h3>Henry Carter</h3>
 		<p>Hi, I'm a computer science and mathematics student at Wesleyan University.</p>
-		<p>My github is <a href="https://github.com/hcarter6">here</a>.</p>
-		<div></div>
-		<p>The Library of Babel</p>
-		<div><img src="libraryofbabel.jpg"></div>
+		<table>
+			<tr>
+				<td><a href="/Resume.pdf" target="blank">resume</a></td>
+				<td><a href="https://github.com/hcarter6">github</a></td>
+				<td><a href="mailto:hccarter@wesleyan.edu">email me</a></td>
+			</tr>
+		</table>
+		<figure>
+			<img class = "resize" src="libraryofbabel.jpg">
+			<figcaption>The Library of Babel</figcaption>
+		</figure>
 	</body>
 </html>
