@@ -6,26 +6,24 @@ img.resize {
 	margin-right: auto;
 }
 
-h3, p, td {
+h2 {
 	text-align: center;
 }
 
-td {
-	border: 1px #cccccc solid;
-}
-
-table {
-	margin-left: auto;
-	margin-right: auto;
-	width: 25%;
+h2, h3, p{
+	font-family: 'Palatino';
+	line-height: 1.6;
 }
 
 figure {
   	display: block;
+		margin: 0 auto;
+		/*
   	margin-top: 1em;
   	margin-bottom: 1em;
   	margin-left: 40px;
   	margin-right: 40px;
+		*/
 }
 
 figcaption {
@@ -34,4 +32,32 @@ figcaption {
     font-style: italic;
   	padding: 2px;
   	text-align: center;
+}
+
+body {
+	background-color: rgb(242, 242, 242);
+}
+
+div {
+	width: 40%;
+	margin: 0 auto;
+	text-align: left;
+}
+
+p {
+	font-size: large;
+}
+
+a:link {
+	color: rgb(161, 113, 136);
+	text-decoration: none;
+}
+
+a:visited {
+	color: rgb(161, 113, 136);
+	text-decoration: none;
+}
+
+a:hover {
+	color: rgb(176, 58, 115)
 }
