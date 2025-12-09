@@ -61,3 +61,30 @@ a:visited {
 a:hover {
 	color: rgb(176, 58, 115)
 }
+
+.subheading {
+	text-align: center;
+	word-spacing: 45px;
+}
+
+.left {
+	flex: 15%;
+	padding: 10px;
+}
+
+.center {
+	flex: 60%;
+	padding: 10px;
+	padding-right: 15px;
+}
+
+.right {
+	flex: 25%;
+	padding: 10px;
+}
+
+.row {
+	width: 70%;
+	display: flex;
+	align-items: baseline;
+}
